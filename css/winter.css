@@ -1,0 +1,93 @@
+html{
+    background-color: #b5dff7;
+    margin: 5px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+hr {
+    width: 75%;
+    height: 2px;
+    color: blue;
+    background-color: blue;
+}
+
+img {
+    border: 2px solid black;
+}
+
+#bevezeto {
+    margin: 15px 150px;
+    padding: 6px 0;
+    border-left: solid 5px;
+    padding-left: 15px;
+}
+
+#elso_kep {
+    position:relative;
+    border-radius: 25px;
+    box-shadow: 15px 15px 0px black;
+    left: 50px;
+    bottom: -50px;
+    z-index: -1;
+}
+
+#masodik_kep {
+    position: relative;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+    left: -150px;
+    bottom: -60px;
+    z-index: 1;
+}
+
+#harmadik_kep {
+    position: relative;
+    border-radius: 150px;
+    box-shadow: 0 0 20px purple;
+    bottom: 50px;
+    left: 100px;
+    z-index: -1;
+}
+
+h2::after {
+    content: "-";
+}
+
+h2::before {
+    content: "-";
+}
+
+div p::first-letter {
+    color: blue;
+    font-size:x-large;
+}
+
+li::first-letter {
+    font-weight: bold;
+    color: red;
+}
+
+::selection {
+    color: white;
+    background: crimson;
+}
+
+#felsorolas {
+    list-style-type: "❆";
+    margin-top: 0;
+    padding-top: 0;
+}

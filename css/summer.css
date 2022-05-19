@@ -1,0 +1,101 @@
+body {
+    background: darkgrey url("../img/nap.gif") no-repeat fixed 98% 90%;
+    background-size: 200px;
+    margin: 0px;
+}
+
+#egesz {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+main, aside {
+    padding: 10px;
+}
+
+main {
+    background-color: cornsilk;
+    width: 80%;
+}
+
+section {
+    padding: 0px 10px;
+    margin: 20px 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+section h2 {
+    background-color: rgb(212, 212, 212);
+    padding: 0px 30px;
+    margin: 0px;
+    display: inline-block;
+}
+
+section p {
+    padding: 0px 15px;
+    text-align: justify;
+}
+
+article {
+    background-color: rgb(252, 209, 209);
+    padding: 0px 10px;
+    border:2px solid rgb(124, 131, 124);
+    width: 75%;
+    position: relative;
+    left: 20%;
+}
+
+figure {
+    background-color: gainsboro;
+    padding: 5px;
+    border: 5px dotted rgb(167, 175, 120);
+    outline: dashed rgb(124, 131, 124) 5px;
+    outline-offset: 5px;
+    display:inline-block;
+}
+
+#animalt {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    animation: szinvaltas 2s infinite alternate, mozgas 1s infinite alternate;
+}
+
+aside {
+    width: 20%;
+    min-width: 300px;
+}
+
+footer {
+    background-color: gray;
+}
+
+footer p {
+    margin: 0px;
+    padding: 10px;
+}
+
+@keyframes szinvaltas {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: orange;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+@keyframes mozgas {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 100px;
+    }
+}

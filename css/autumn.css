@@ -1,0 +1,73 @@
+html{
+    color: white;
+    background-color: #b05430;
+    margin: 5px 13px;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Impact';
+    text-shadow: 5px 5px black;
+}
+
+h2 {
+    text-decoration: underline black;
+    letter-spacing: 5px;
+}
+
+p {
+
+    color: white;
+    margin-left: 20px;
+}
+
+.kep {
+    display: inline-block;
+    padding-right: 50px;
+}
+#whitespace_lnh {
+    white-space: pre;
+    line-height: 180%;
+}
+
+span {
+    color: aqua;
+    font-size: 18px;
+}
+
+.datum {
+    font-style: italic;
+}
+
+.honapok {
+    font-weight: bold;
+    color: white;
+}
+
+mark {
+    color: black;
+    background-color: white;
+}
+
+pre {
+    font-family: 'Times New Roman';
+    margin-left: 20px;
+}
+
+.festmenyek {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+hr {
+    background-color: yellow;
+    color: yellow;
+    width: 40%;
+    height: 2px;
+}
+
+#also {
+    width: 100%;
+}

@@ -1,0 +1,122 @@
+html {
+    background-color: #dbd3f2;
+    margin: 0px;    
+}
+
+body {
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {color: red;}
+a:visited {color: grey;}
+a:hover {color: black;}
+a:active {color: green;}
+
+header {
+    padding: 1px;
+    margin: 0px;
+    background-color: crimson;
+}
+
+#evszak_menu li {
+    padding-bottom: 10px;
+}
+
+.menu_hover {
+    padding: 3px 10px;
+}
+
+.menu_hover:hover {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+nav {
+    width: 30%;
+    margin-right: 30px;
+    background-color: white;
+}
+
+#egesz {
+    display: flex;
+}
+
+nav ol {
+    display: block;
+    list-style: decimal;
+    line-height: 25px;
+}
+
+.negyzet {
+    list-style: square;
+    list-style-position: outside;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.kor {
+    list-style: circle;
+    list-style-position: outside;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+#evszak_menu {
+    list-style: none;
+    text-align: center;
+}
+
+.evszak_vonal {
+    width: 99%;
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+
+hr {
+    width: 60%;
+    height: 4px;
+    color: grey;
+    background-color: grey;
+}
+
+h1, #menu {
+    text-align: center;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+p, .haromLista {
+    margin-left: 20px;
+}
+
+
+
+.negyLista {
+    margin-left: 35px;
+}
+
+#kep {
+    float: right;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+
+footer {
+    margin: 0px;
+    padding: 1px;
+    background-color: lightgreen;
+}

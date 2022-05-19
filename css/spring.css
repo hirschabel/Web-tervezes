@@ -1,0 +1,71 @@
+html{
+    background-color: #ffe1ed;
+    margin: 5px 13px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline dashed black;
+}
+
+#o {
+    text-align: center;
+}
+
+img {
+    display: block;
+    border: 1px solid black;
+}
+
+#tavasz {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tavasz1 {
+    position: static;
+}
+
+#tavasz2 {
+    position: relative;
+    left: 30%;
+}
+
+#tavasz3 {
+    position: absolute;
+    top:900px;
+    left:600px;
+}
+
+#tavasz4 {
+    position: fixed;
+    top:200px;
+    left:-185px;
+}
+
+hr {
+    width: 100%;
+    background-color: black;
+    color: black;
+    height: 1px;
+}
+
+input:focus {
+    background-color: gainsboro;
+}
+
+@media print {
+    p {
+        font-family: Arial;
+    }
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    img {
+        display: none;
+    }
+}
